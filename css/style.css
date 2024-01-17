@@ -709,6 +709,10 @@ video {
   line-height: 120%;
 }
 
+.leading-\[160\%\] {
+  line-height: 160%;
+}
+
 .text-colorSixth {
   --tw-text-opacity: 1;
   color: rgb(82 85 96 / var(--tw-text-opacity));
@@ -717,6 +721,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .duration-300 {

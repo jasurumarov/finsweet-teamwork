@@ -24,10 +24,8 @@ module.exports = {
     },
     fontFamily: {
       roboto: ['Roboto'],
-      roboto700: ['Roboto'],
     },
     fontFamily: {
-      roboto: ['Roboto700'],
       roboto700: ['Roboto700'],
     }
   },
