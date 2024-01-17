@@ -913,8 +913,8 @@ video {
   background-color: rgb(239 247 242 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\] {
-  background-color: url;
+.bg-\[ur\] {
+  background-color: ur;
 }
 
 .bg-colorSixth {
@@ -928,6 +928,10 @@ video {
 
 .bg-\[\'\.\.\/what_img\/bg-img4\.png\'\] {
   background-color: '../what img/bg-img4.png';
+}
+
+.bg-\[url\] {
+  background-color: url;
 }
 
 .bg-homeBottom-secondBg {

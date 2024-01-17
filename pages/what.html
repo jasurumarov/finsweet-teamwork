@@ -7,27 +7,330 @@
     <title>Finsweet | What We Do</title>
   </head>
   <body>
-    <header></header>
-
-    <main class="not-italic	">
-      <section>
-        <div class="container">
-          <div class="flex gap-7 ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="72"
-              height="3"
-              viewBox="0 0 72 3"
-              fill="none"
+    <header class="py-3 bg-slate-200 fixed top-0 left-0 right-0 z-10">
+      <div class="container mx-auto px-5">
+        <nav class="md:flex justify-between items-center">
+          <div class="flex justify-between items-center">
+            <a href="#">
+              <img src="../images/homeBottom/logo.svg" alt="Logo" />
+            </a>
+            <button id="btn-menu" class="md:hidden bg-bx-menu w-6 h-6"></button>
+          </div>
+          <div
+            id="nav-items"
+            class="bg-slate-200 absolute md:static top-[53px] left-0 right-0 -translate-x-full md:translate-x-0 flex flex-col md:flex-row gap-5 lg:gap-10 items-center py-10 md:py-0 duration-500"
+          >
+            <a
+              href="../index.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >Home</a
             >
-              <path d="M0 1.5H72" stroke="#1D2130" stroke-width="2" />
-            </svg>
-            <h3 class="text-[colorSixth] ">Know about us</h3>
+            <a
+              href="./about.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >About us</a
+            >
+            <a
+              href="./what.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >What we do</a
+            >
+            <a
+              href="./media.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >Media</a
+            >
+            <a
+              href="./contact.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >Contact</a
+            >
+            <a href="./donation.html">
+              <button
+                class="bg-colorFifth text-white py-3 px-8 rounded font-medium"
+              >
+                Donate
+              </button>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="not-italic">
+      <section class="py-36">
+        <div class="container mx-auto px-5">
+          <div class="flex gap-[110px]">
+            <div>
+              <div class="flex gap-7 items-center pb-8">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="72"
+                  height="3"
+                  viewBox="0 0 72 3"
+                  fill="none"
+                >
+                  <path d="M0 1.5H72" stroke="#1D2130" stroke-width="2" />
+                </svg>
+                <h3 class="text-[colorSixth]">Know about us</h3>
+              </div>
+              <div class="pl-24">
+                <h1 class="font-bold text-[56px] text-colorFifth pb-[34px]">
+                  We are working worldwide
+                </h1>
+                <p class="text-base font-normal text text-colorSixth">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat.
+                </p>
+              </div>
+            </div>
+            <div class="flex-shrink-0">
+              <img src="../what_img/Image.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-colorThird pt-24">
+        <div class="container mx-auto px-5">
+          <h1 class="text-5xl font-bold">What we do for the environment</h1>
+          <div
+            class="grid grid-cols-3 gap-x-16 gap-y-12 pt-16 flex-wrap pb-[104px]"
+          >
+            <div class="flex gap-6 items-start">
+              <img src="../what_img/Icon1.png" alt="" />
+              <div>
+                <h2 class="text-colorFifth font-bold text-2xl pb-2">
+                  Build healthy cities
+                </h2>
+                <p class="text-base font-normal text text-colorSixth">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-6 items-start">
+              <img src="../what_img/Icon2.png" alt="" />
+              <div>
+                <h2 class="text-colorFifth font-bold text-2xl pb-2">
+                  Protect land and water
+                </h2>
+                <p class="text-base font-normal text text-colorSixth">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-6 items-start">
+              <img src="../what_img/Icon3.png" alt="" />
+              <div>
+                <h2 class="text-colorFifth font-bold text-2xl pb-2">
+                  Tree plantation
+                </h2>
+                <p class="text-base font-normal text text-colorSixth">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-6 items-start">
+              <img src="../what_img/Icon4.png" alt="" />
+              <div>
+                <h2 class="text-colorFifth font-bold text-2xl pb-2">
+                  Water sustainability
+                </h2>
+                <p class="text-base font-normal text text-colorSixth">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-6 items-start">
+              <img src="../what_img/Icon5.png" alt="" />
+              <div>
+                <h2 class="text-colorFifth font-bold text-2xl pb-2">
+                  Animal safety
+                </h2>
+                <p class="text-base font-normal text text-colorSixth">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-6 items-start">
+              <img src="../what_img/Icon6.png" alt="" />
+              <div>
+                <h2 class="text-colorFifth font-bold text-2xl pb-2">
+                  Biodiversity
+                </h2>
+                <p class="text-base font-normal text text-colorSixth">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container m-auto px-5">
+          <h3
+            class="text-base font-bold text-colorFifth text-center pt-24 pb-2"
+          >
+            Projects we have done
+          </h3>
+          <h1
+            class="text-5xl font-bold text-colorFifth text-center w-[700px] mx-auto pb-24"
+          >
+            We are creating a sustainable society, for everyone.
+          </h1>
+          <div class="flex gap-6">
+            <div
+              class="bg-[url('../what_img/bg-img1.png')] bg-no-repeat w-[411px] h-[421px] px-12 pt-20"
+            >
+              <h3 class="text-[28px] font-bold text-white pb-4">
+                Mission 40K: Tree plantation
+              </h3>
+              <p class="text-base font-normal pb-16 text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button
+                class="py-4 px-8 rounded bg-white text-colorFifth text-base font-medium"
+              >
+                See more
+              </button>
+            </div>
+            <div
+              class="bg-[url('../what_img/bg-img2.png')] bg-no-repeat w-[411px] h-[421px] px-12 pt-20"
+            >
+              <h3 class="text-[28px] font-bold text-white pb-4">
+                Weekly cleanliness program in city
+              </h3>
+              <p class="text-base font-normal pb-16 text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button
+                class="py-4 px-8 rounded bg-white text-colorFifth text-base font-medium"
+              >
+                See more
+              </button>
+            </div>
+            <div
+              class="bg-[url('../what_img/bg-img3.png')] bg-no-repeat w-[411px] h-[421px] px-12 pt-20"
+            >
+              <h3 class="text-[28px] font-bold text-white pb-4">
+                Wildlife safety program 2021
+              </h3>
+              <p class="text-base font-normal pb-16 text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button
+                class="py-4 px-8 rounded bg-white text-colorFifth text-base font-medium"
+              >
+                See more
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-24">
+        <div class="container mx-auto px-5">
+          <div
+            class="bg-[url('../what_img/bg-img4.png')] py-[92px] flex-shrink h-[384px]"
+          >
+            <h1
+              class="text-white text-center text-5xl font-bold w-[631px] mx-auto"
+            >
+              You can contribute to make the environment greener!
+            </h1>
+            <div class="flex justify-center gap-8 mt-8">
+              <button
+                class="py-4 px-8 rounded bg-colorFirst text-white font-medium text-base"
+              >
+                <a href="#popup.html">Join as a volunteer</a>
+              </button>
+              <button class="py-4 px-8 font-medium bg-white rounded">
+                Donate
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mx-auto px-5">
+          <h1 class="text-[40px] font-medium text-colorFifth pb-12">
+            Read Our News
+          </h1>
+          <div class="grid grid-cols-4 gap-6">
+            <div>
+              <img src="../what_img/our-img1.png" alt="" />
+              <h2 class="text-[20px] font-medium text-[#1C1D28] pt-4 pb-2">
+                Don’t destroy greenery and don’t spoil scenery
+              </h2>
+              <p class="font-normal text-base text-colorSixth">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div>
+              <img src="../what_img/our-img2.png" alt="" />
+              <h2 class="text-[20px] font-medium text-[#1C1D28] pt-4 pb-2">
+                Is climate change happening faster than expected?
+              </h2>
+              <p class="font-normal text-base text-colorSixth">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div>
+              <img src="../what_img/our-img3.png" alt="" />
+              <h2 class="text-[20px] font-medium text-[#1C1D28] pt-4 pb-2">
+                Top 10 facts about wind farms you didn't know
+              </h2>
+              <p class="font-normal text-base text-colorSixth">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div>
+              <img src="../what_img/our-img4.png" alt="" />
+              <h2 class="text-[20px] font-medium text-[#1C1D28] pt-4 pb-2">
+                Our goal is to make water available for everyone
+              </h2>
+              <p class="font-normal text-base text-colorSixth">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-24">
+        <div class="container mx-auto px-5">
+          <h1 class="text-[40px] font-medium text-colorFifth pb-12">
+            Our Events
+          </h1>
+          <div class="flex gap-6">
+            <div>
+              <div>
+                <h1>23</h1>
+                <h3>SEP</h3>
+              </div>
+              <div>
+                <div>
+                    <h2>Next Events</h2>
+                    <span class="w-[44px] h-[2px] bg-colorFifth"></span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
-
     <footer></footer>
+    <script src="../js/main.js"></script>
   </body>
 </html>
