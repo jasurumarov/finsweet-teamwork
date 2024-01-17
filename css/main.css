@@ -685,10 +685,6 @@ video {
   padding-top: 168px;
 }
 
-.font-roboto {
-  font-family: Roboto700;
-}
-
 .font-roboto700 {
   font-family: Roboto700;
 }
@@ -717,6 +713,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .duration-300 {
