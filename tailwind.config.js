@@ -20,6 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         'bx-x': "url('/images/homeBottom/bx-x.svg')",
+        'homeBottom-secondBg': "url('/images/homeBottom/second-bg.png')",
       },  
     },
     fontFamily: {
