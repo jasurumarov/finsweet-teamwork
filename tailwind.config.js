@@ -20,6 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         'bx-x': "url('/images/homeBottom/bx-x.svg')",
+        'bx-menu': "url('/images/homeBottom/bx-menu.svg')",
         'homeBottom-secondBg': "url('/images/homeBottom/second-bg.png')",
       },  
     },

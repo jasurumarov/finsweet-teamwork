@@ -1265,6 +1265,10 @@ video {
   background-image: url('/images/hometop/inter-3.jpg');
 }
 
+.bg-bx-menu {
+  background-image: url('/images/homeBottom/bx-menu.svg');
+}
+
 .bg-homeBottom-secondBg {
   background-image: url('/images/homeBottom/second-bg.png');
 }
