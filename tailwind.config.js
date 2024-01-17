@@ -18,8 +18,11 @@ module.exports = {
         colorSeventh: '#EBF0F9',
         colorEighth: '#E5E5E5',
       },
+      backgroundImage: {
+        'bx-x': "url('/images/homeBottom/bx-x.svg')",
+      },  
     },
-    fontFaimly: {
+    fontFamily: {
       roboto: ['Roboto'],
       roboto700: ['Roboto'],
     },

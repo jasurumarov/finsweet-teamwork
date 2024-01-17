@@ -657,6 +657,10 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
+.bg-bx-menu {
+  background-image: url('/images/homeBottom/bx-x.svg');
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -677,8 +681,8 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.pt-14 {
-  padding-top: 3.5rem;
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .font-medium {
