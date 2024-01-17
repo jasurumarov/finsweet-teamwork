@@ -26,7 +26,7 @@ module.exports = {
       roboto: ['Roboto'],
       roboto700: ['Roboto'],
     },
-    fontFaimly: {
+    fontFamily: {
       roboto: ['Roboto700'],
       roboto700: ['Roboto700'],
     }
