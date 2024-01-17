@@ -544,6 +544,50 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 976px) {
+  .container {
+    max-width: 976px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
+.text-\[colorSixth\] {
+  color: colorSixth;
+}
+
 @font-face {
   font-family: Roboto;
 
