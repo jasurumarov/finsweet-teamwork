@@ -1,65 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finsweet | About Us</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body class="not-italic leading-normal">
     <header class="py-3 bg-slate-200 fixed top-0 left-0 right-0 z-10">
-        <div class="container mx-auto px-5">
-          <nav class="md:flex justify-between items-center">
-            <div class="flex justify-between items-center">
-              <a href="#">
-                <img src="../images/homeBottom/logo.svg" alt="Logo" />
-              </a>
-              <button id="btn-menu" class="md:hidden bg-bx-menu w-6 h-6"></button>
-            </div>
-            <div
-              id="nav-items"
-              class="bg-slate-200 absolute md:static top-[53px] left-0 right-0 -translate-x-full md:translate-x-0 flex flex-col md:flex-row gap-5 lg:gap-10 items-center py-10 md:py-0 duration-500"
+      <div class="container mx-auto px-5">
+        <nav class="md:flex justify-between items-center">
+          <div class="flex justify-between items-center">
+            <a href="#">
+              <img src="../images/homeBottom/logo.svg" alt="Logo" />
+            </a>
+            <button id="btn-menu" class="md:hidden bg-bx-menu w-6 h-6"></button>
+          </div>
+          <div
+            id="nav-items"
+            class="bg-slate-200 absolute md:static top-[53px] left-0 right-0 -translate-x-full md:translate-x-0 flex flex-col md:flex-row gap-5 lg:gap-10 items-center py-10 md:py-0 duration-500"
+          >
+            <a
+              href="../index.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >Home</a
             >
-              <a
-                href="../index.html"
-                class="font-medium text-colorSixth hover:text-colorFourth duration-300"
-                >Home</a
+            <a
+              href="./about.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >About us</a
+            >
+            <a
+              href="./what.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >What we do</a
+            >
+            <a
+              href="./media.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >Media</a
+            >
+            <a
+              href="./contact.html"
+              class="font-medium text-colorSixth hover:text-colorFourth duration-300"
+              >Contact</a
+            >
+            <a href="./donation.html">
+              <button
+                class="bg-colorFifth text-white py-3 px-8 rounded font-medium"
               >
-              <a
-                href="./about.html"
-                class="font-medium text-colorSixth hover:text-colorFourth duration-300"
-                >About us</a
-              >
-              <a
-                href="./what.html"
-                class="font-medium text-colorSixth hover:text-colorFourth duration-300"
-                >What we do</a
-              >
-              <a
-                href="./media.html"
-                class="font-medium text-colorSixth hover:text-colorFourth duration-300"
-                >Media</a
-              >
-              <a
-                href="./contact.html"
-                class="font-medium text-colorSixth hover:text-colorFourth duration-300"
-                >Contact</a
-              >
-              <a href="./donation.html">
-                <button class="bg-colorFifth text-white py-3 px-8 rounded font-medium">Donate</button>
-              </a>
-            </div>
-          </nav>
-        </div>
+                Donate
+              </button>
+            </a>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <main>
+    <main class="about-top">
+      <section>
+        <div class="container mx-auto px-5">
+          <div class="flex items-center gap-[24px] mt-[172px]">
+            <img src="../images/aboutTop/Line.svg" alt="" />
+            <p
+              class="text-[#1D2130] text-[16px] font-[700] tracking-[2px] uppercase"
+            >
+              Know about us
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mx-auto px-5">
+          <div
+            class="flex flex-wrap lg:flex-nowrap gap-[64px] mt-[32px] sm:ml-[86px]"
+          >
+            <div>
+              <h1
+                class="text-[#1D2130] text-[46px] font-[700] leading-[120%] max-w-[664px] md:text-[56px]"
+              >
+                We are a nonprofit team working worldwide
+              </h1>
+            </div>
+            <div>
+              <h1
+                class="text-[#1D2130] text-[20px] font-[700] leading-[150%] max-w-[496px]"
+              >
+                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+                Nunc ut sem vitae risus tristique posuere.
+              </h1>
+              <p
+                class="text-[#1D2130] text-[16px] font-[400] opacity-70 leading-[150%] max-w-[496px] mt-[16px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat. Suspendisse varius enim
+                elementum tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#EFF7F2] pb-[97px]">
+        <div class="container mx-auto px-5">
+          <div>
+            <video
+              class="w-full mt-[96px]"
+              src="../images/aboutTop/video.mp4"
+              controls
+            ></video>
+          </div>
 
+          <div>
+            <div class="container mx-auto px-5">
+              <div class="flex flex-wrap justify-center mt-[96px] gap-[96px]">
+                <div>
+                  <h2
+                    class="text-[#1D2130] text-[16px] font-[700] tracking-[2px] uppercase"
+                  >
+                    our mission
+                  </h2>
+                  <h1
+                    class="text-[#1D2130] text-[28px] mt-[16px] font-[700] leading-[150%] max-w-[496px]"
+                  >
+                    We make the world we save our own environment
+                  </h1>
+                  <p
+                    class="text-[#1D2130] text-[16px] mt-[8px] font-[400] opacity-70 leading-[160%] max-w-[496px]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros elementum tristique. Duis
+                    cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                    ut commodo diam libero vitae erat. Aenean faucibus nibh et
+                    justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                    risus tristique posuere.
+                  </p>
+                </div>
+                <div>
+                  <h2
+                    class="text-[#1D2130] text-[16px] font-[700] tracking-[2px] uppercase"
+                  >
+                    our Vision
+                  </h2>
+                  <h1
+                    class="text-[#1D2130] text-[28px] mt-[16px] font-[700] leading-[150%] max-w-[496px]"
+                  >
+                    Plant more trees to make world air pollution free
+                  </h1>
+                  <p
+                    class="text-[#1D2130] text-[16px] mt-[8px] font-[400] opacity-70 leading-[160%] max-w-[496px]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros elementum tristique. Duis
+                    cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                    ut commodo diam libero vitae erat. Aenean faucibus nibh et
+                    justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                    risus tristique posuere.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="container mx-auto px-5">
+              <div>
+                <h1
+                  class="text-[#1D2130] text-[16px] font-[500] mt-[96px] tracking-[2px] uppercase"
+                >
+                  our Supporters
+                </h1>
+              </div>
+              <div
+                class="flex flex-wrap gap-[96px] mt-[49px] justify-center items-center xl:w-[1280] xl:flex-nowrap"
+              >
+                <img src="../images/aboutTop/Logo1.svg" alt="" />
+                <img src="../images/aboutTop/Logo2.svg" alt="" />
+                <img src="../images/aboutTop/Logo3.svg" alt="" />
+                <img src="../images/aboutTop/Logo4.svg" alt="" />
+                <img src="../images/aboutTop/Logo5.svg" alt="" />
+                <img src="../images/aboutTop/Logo6.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mx-auto px-5">
+          <div>
+            <h1
+              class="text-[#1D2130] text-[48px] mt-[96px] font-[700] leading-[120%] text-center"
+            >
+              Awards & Recognitions
+            </h1>
+          </div>
+          <div
+            class="flex justify-center flex-wrap gap-[40px] xl:w-[1280] xl:flex-nowrap xl:gap-[210px]"
+          >
+            <div
+              class="flex flex-col items-center w-[190px] gap-[4px] mt-[48px]"
+            >
+              <img
+                class="w-[111px]"
+                src="../images/aboutTop/Award badge.svg"
+                alt=""
+              />
+              <h1
+                class="mt-[16px] text-[#1D2130] text-[24px] font-[700] leading-[160%]"
+              >
+                2021
+              </h1>
+              <h2 class="text-[#1D2130] text-[16px] font-[700] leading-[160%]">
+                Best NGO Award
+              </h2>
+              <h3
+                class="text-[#1D2130] text-[12px] font-[500] leading-[160%] uppercase opacity-60"
+              >
+                Berlin, Germany
+              </h3>
+            </div>
+            <div
+              class="flex flex-col items-center w-[190px] gap-[4px] mt-[48px]"
+            >
+              <img
+                class="w-[111px]"
+                src="../images/aboutTop/Award badge1.svg"
+                alt=""
+              />
+              <h1
+                class="mt-[16px] text-[#1D2130] text-[24px] font-[700] leading-[160%]"
+              >
+                2018
+              </h1>
+              <h2 class="text-[#1D2130] text-[16px] font-[700] leading-[160%]">
+                Global Award
+              </h2>
+              <h3
+                class="text-[#1D2130] text-[12px] font-[500] leading-[160%] uppercase opacity-60"
+              >
+                New York, USA
+              </h3>
+            </div>
+            <div
+              class="flex flex-col items-center w-[190px] gap-[4px] mt-[48px]"
+            >
+              <img
+                class="w-[111px]"
+                src="../images/aboutTop/Award badge2.svg"
+                alt=""
+              />
+              <h1
+                class="mt-[16px] text-[#1D2130] text-[24px] font-[700] leading-[160%]"
+              >
+                2014
+              </h1>
+              <h2 class="text-[#1D2130] text-[16px] font-[700] leading-[160%]">
+                Foresto Award
+              </h2>
+              <h3
+                class="text-[#1D2130] text-[12px] font-[500] leading-[160%] uppercase opacity-60"
+              >
+                New Delhi, India
+              </h3>
+            </div>
+            <div
+              class="flex flex-col items-center w-[190px] gap-[4px] mt-[48px]"
+            >
+              <img
+                class="w-[111px]"
+                src="../images/aboutTop/Award badge3.svg"
+                alt=""
+              />
+              <h1
+                class="mt-[16px] text-[#1D2130] text-[24px] font-[700] leading-[160%]"
+              >
+                2010
+              </h1>
+              <h2 class="text-[#1D2130] text-[16px] font-[700] leading-[160%]">
+                Earth Saver Award
+              </h2>
+              <h3
+                class="text-[#1D2130] text-[12px] font-[500] leading-[160%] uppercase opacity-60"
+              >
+                Vienna, Austria
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mx-auto px-5">
+          <div
+            class="bg-[#0B0706] rounded-[12px] w-[100%] mt-[96px] flex gap-[48px] items-center h-[900px] xl:w-1280px xl:h-[576px] xl:justify-end flex-wrap justify-center"
+          >
+            <div>
+              <p
+                class="text-[#fff] text-[16px] font-[700] tracking-[2px] uppercase"
+              >
+                OUR JOURNEY
+              </p>
+              <h1
+                class="text-[#fff] text-[28px] md:text-[48px] font-[700] leading-[120%] mt-[16px]"
+              >
+                How we raised 34M
+              </h1>
+              <h2
+                class="text-[#fff] opacity-60 text-[16px] font-[400] leading-[160%] mt-[16px] max-w-[488px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat. Aenean faucibus nibh.
+              </h2>
+              <div class="flex gap-[32px] mt-[32px]">
+                <div>
+                  <h1 class="text-[#fff] text-[24px] font-[500] leading-[160%]">
+                    34M+
+                  </h1>
+                  <p
+                    class="text-[#fff] text-[12px] font-[500] leading-[160%] opacity-60"
+                  >
+                    Donation Received
+                  </p>
+                </div>
+                <div>
+                  <h1 class="text-[#fff] text-[24px] font-[500] leading-[160%]">
+                    400+
+                  </h1>
+                  <p
+                    class="text-[#fff] text-[12px] font-[500] leading-[160%] opacity-60"
+                  >
+                    Volunters
+                  </p>
+                </div>
+                <div>
+                  <h1 class="text-[#fff] text-[24px] font-[500] leading-[160%]">
+                    40K+
+                  </h1>
+                  <p
+                    class="text-[#fff] text-[12px] font-[500] leading-[160%] opacity-60"
+                  >
+                    Trees planted
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="w-[100%]"
+                src="../images/aboutTop/Imagefamily.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-        
-    </footer>
+    <footer></footer>
     <script src="../js/main.js"></script>
-</body>
+  </body>
 </html>
