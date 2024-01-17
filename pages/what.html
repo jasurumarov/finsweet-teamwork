@@ -59,10 +59,11 @@
     <main class="not-italic">
       <section class="py-36">
         <div class="container mx-auto px-5">
-          <div class="flex gap-[110px]">
+          <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-[110px]">
             <div>
               <div class="flex gap-7 items-center pb-8">
                 <svg
+                  class="hidden xl:block"
                   xmlns="http://www.w3.org/2000/svg"
                   width="72"
                   height="3"
@@ -73,8 +74,10 @@
                 </svg>
                 <h3 class="text-[colorSixth]">Know about us</h3>
               </div>
-              <div class="pl-24">
-                <h1 class="font-bold text-[56px] text-colorFifth pb-[34px]">
+              <div class="xl:pl-24">
+                <h1
+                  class="font-bold text-[56px] leading-[58px] text-colorFifth pb-[34px]"
+                >
                   We are working worldwide
                 </h1>
                 <p class="text-base font-normal text text-colorSixth">
@@ -85,7 +88,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex-shrink-0">
+            <div class="xl:shrink-0">
               <img src="../what_img/Image.png" alt="img" />
             </div>
           </div>
@@ -93,9 +96,11 @@
       </section>
       <section class="bg-colorThird pt-24">
         <div class="container mx-auto px-5">
-          <h1 class="text-5xl font-bold">What we do for the environment</h1>
+          <h1 class="text-5xl font-bold text-center xl:text-left">
+            What we do for the environment
+          </h1>
           <div
-            class="grid grid-cols-3 gap-x-16 gap-y-12 pt-16 flex-wrap pb-[104px]"
+            class="grid xl:grid-cols-3 gap-x-16 gap-y-12 pt-16 flex-wrap pb-[104px] lg:grid-cols-2 grid-cols-1"
           >
             <div class="flex gap-6 items-start">
               <img src="../what_img/Icon1.png" alt="" />
@@ -180,16 +185,36 @@
             Projects we have done
           </h3>
           <h1
-            class="text-5xl font-bold text-colorFifth text-center w-[700px] mx-auto pb-24"
+            class="text-5xl font-bold text-colorFifth text-center xl:w-[700px] mx-auto pb-24"
           >
             We are creating a sustainable society, for everyone.
           </h1>
-          <div class="flex gap-6">
+          <div class="grid lg:grid-cols-3 gap-6 md:grid-cols-2">
             <div
-              class="bg-[url('../what_img/bg-img1.png')] bg-no-repeat w-[411px] h-[421px] px-12 pt-20"
+              class="bg-[url('../what_img/bg-img1.png')] bg-no-repeat relative rounded-lg overflow-hidden h-[400px] md:h-[420px] bg-cover"
             >
-              <h3 class="text-[28px] font-bold text-white pb-4">
-                Mission 40K: Tree plantation
+              <div
+                class="absolute px-12 pt-20 top-0 left-0 w-full h-full bg-colorFourth/50 rou z-0"
+              >
+                <h3 class="xl:text-[28px] text-2xl font-bold text-white pb-4">
+                  Mission 40K: Tree plantation
+                </h3>
+                <p class="text-base font-normal pb-16 text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros.
+                </p>
+                <button
+                  class="py-4 px-8 rounded bg-white text-colorFifth text-base font-medium"
+                >
+                  See more
+                </button>
+              </div>
+            </div>
+            <div
+              class="bg-[url('../what_img/bg-img2.png')] bg-no-repeat relative px-12 pt-20 z-0 h-[400px] md:h-[420px] bg-cover rounded-lg overflow-hidden after:absolute after:top-0 after:left-0 after:w-full after:-z-10 after:h-full after:bg-colorFourth/80"
+            >
+              <h3 class="xl:text-[28px] text-2xl font-bold text-white pb-4">
+                Weekly clean program in city
               </h3>
               <p class="text-base font-normal pb-16 text-white">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -202,25 +227,9 @@
               </button>
             </div>
             <div
-              class="bg-[url('../what_img/bg-img2.png')] bg-no-repeat w-[411px] h-[421px] px-12 pt-20"
+              class="bg-[url('../what_img/bg-img3.png')] bg-no-repeat z-0 h-[400px] md:h-[420px] bg-cover px-12 pt-20 rounded-lg overflow-hidden relative after:absolute after:top-0 after:left-0 after:w-full after:-z-10 after:h-full after:bg-colorFourth/50"
             >
-              <h3 class="text-[28px] font-bold text-white pb-4">
-                Weekly cleanliness program in city
-              </h3>
-              <p class="text-base font-normal pb-16 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros.
-              </p>
-              <button
-                class="py-4 px-8 rounded bg-white text-colorFifth text-base font-medium"
-              >
-                See more
-              </button>
-            </div>
-            <div
-              class="bg-[url('../what_img/bg-img3.png')] bg-no-repeat w-[411px] h-[421px] px-12 pt-20"
-            >
-              <h3 class="text-[28px] font-bold text-white pb-4">
+              <h3 class="xl:text-[28px] text-2xl font-bold text-white pb-4">
                 Wildlife safety program 2021
               </h3>
               <p class="text-base font-normal pb-16 text-white">
@@ -239,10 +248,10 @@
       <section class="my-24">
         <div class="container mx-auto px-5">
           <div
-            class="bg-[url('../what_img/bg-img4.png')] py-[92px] flex-shrink h-[384px]"
+            class="bg-[url('../what_img/bg-img4.png')] py-[92px] flex-shrink lg:h-[384px] rounded-lg overflow-hidden z-0 relative after:absolute after:top-0 after:left-0 after:w-full after:-z-10 after:h-full after:bg-colorFourth/50"
           >
             <h1
-              class="text-white text-center text-5xl font-bold w-[631px] mx-auto"
+              class="text-white text-center lg:text-5xl font-bold lg:w-[631px] mx-auto text-2xl md:text-4xl"
             >
               You can contribute to make the environment greener!
             </h1>
@@ -250,7 +259,7 @@
               <button
                 class="py-4 px-8 rounded bg-colorFirst text-white font-medium text-base"
               >
-                <a href="#popup.html">Join as a volunteer</a>
+                <a href="./popup.html">Join as a volunteer</a>
               </button>
               <button class="py-4 px-8 font-medium bg-white rounded">
                 Donate
@@ -264,9 +273,9 @@
           <h1 class="text-[40px] font-medium text-colorFifth pb-12">
             Read Our News
           </h1>
-          <div class="grid grid-cols-4 gap-6">
+          <div class="grid xl:grid-cols-4 grid-cols-2 gap-6">
             <div>
-              <img src="../what_img/our-img1.png" alt="" />
+              <img src="../what_img/our-img1.png" class="w-full" alt="" />
               <h2 class="text-[20px] font-medium text-[#1C1D28] pt-4 pb-2">
                 Don’t destroy greenery and don’t spoil scenery
               </h2>
@@ -276,7 +285,7 @@
               </p>
             </div>
             <div>
-              <img src="../what_img/our-img2.png" alt="" />
+              <img src="../what_img/our-img2.png" class="w-full" alt="" />
               <h2 class="text-[20px] font-medium text-[#1C1D28] pt-4 pb-2">
                 Is climate change happening faster than expected?
               </h2>
@@ -286,7 +295,7 @@
               </p>
             </div>
             <div>
-              <img src="../what_img/our-img3.png" alt="" />
+              <img src="../what_img/our-img3.png" class="w-full" alt="" />
               <h2 class="text-[20px] font-medium text-[#1C1D28] pt-4 pb-2">
                 Top 10 facts about wind farms you didn't know
               </h2>
@@ -296,7 +305,7 @@
               </p>
             </div>
             <div>
-              <img src="../what_img/our-img4.png" alt="" />
+              <img src="../what_img/our-img4.png" class="w-full" alt="" />
               <h2 class="text-[20px] font-medium text-[#1C1D28] pt-4 pb-2">
                 Our goal is to make water available for everyone
               </h2>
@@ -313,18 +322,57 @@
           <h1 class="text-[40px] font-medium text-colorFifth pb-12">
             Our Events
           </h1>
-          <div class="flex gap-6">
-            <div>
-
-              <div>
-                <h1>23</h1>
-                <h3>SEP</h3>
-              </div>
-              <div>
+          <div class="grid xl:grid-cols-2 gap-6 grid-cols-1">
+            <div
+              class="flex gap-6 bg-[#BEF3C0] rounded-[8px] items-center pr-12 pl-10 py-10"
+            >
+              <div class="flex gap-6">
                 <div>
-                    <h2>Next Events</h2>
-                    <span class="w-[44px] h-[2px] bg-colorFifth"></span>
+                  <h1 class="text-colorFifth font-medium text-5xl">23</h1>
+                  <h3 class="text-base font-medium text-colorFifth">SEP</h3>
                 </div>
+                <div>
+                  <div class="flex items-center gap-6">
+                    <h2 class="text-colorFifth font-medium text-base">
+                      Next Events
+                    </h2>
+                    <span class="block w-[44px] h-[2px] bg-colorFifth"></span>
+                  </div>
+                  <div>
+                    <h1 class="text-colorFifth text-[28px] font-bold">
+                      Say no to plastic usage and save the planet
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="shrink-0">
+                <img src="../what_img/Arrow button.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="flex gap-6 bg-[#BEF3C0] rounded-[8px] items-center pr-12 pl-10 py-10"
+            >
+              <div class="flex gap-6">
+                <div>
+                  <h1 class="text-colorFifth font-medium text-5xl">23</h1>
+                  <h3 class="text-base font-medium text-colorFifth">SEP</h3>
+                </div>
+                <div>
+                  <div class="flex items-center gap-6">
+                    <h2 class="text-colorFifth font-medium text-base">
+                      Next Events
+                    </h2>
+                    <span class="block w-[44px] h-[2px] bg-colorFifth"></span>
+                  </div>
+                  <div>
+                    <h1 class="text-colorFifth text-[28px] font-bold">
+                      Weekly cleaning program
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="shrink-0">
+                <img src="../what_img/Arrow button.png" alt="" />
               </div>
             </div>
           </div>
