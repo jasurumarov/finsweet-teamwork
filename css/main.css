@@ -1311,6 +1311,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\.\/images\/Aboutbottom\/BG\.png\'\)\] {
+  background-image: url('../images/Aboutbottom/BG.png');
+}
+
 .bg-\[url\(\'\.\.\/what_img\/bg-img1\.png\'\)\] {
   background-image: url('../what_img/bg-img1.png');
 }
@@ -1325,10 +1329,6 @@ video {
 
 .bg-\[url\(\'\.\.\/what_img\/bg-img4\.png\'\)\] {
   background-image: url('../what_img/bg-img4.png');
-}
-
-.bg-\[url\(\'\/Images\/Aboutbottom\/BG\.png\'\)\] {
-  background-image: url('/Images/Aboutbottom/BG.png');
 }
 
 .bg-\[url\(\'\/images\/hometop\/bg-img\.svg\'\)\] {
